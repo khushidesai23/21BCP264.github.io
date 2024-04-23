@@ -155,35 +155,6 @@ services:
       POSTGRES_PASSWORD: password
 ```
 
-
-Certainly! Here's a concise explanation of the provided Docker Compose file:
-
-yaml
-Copy code
-version: '3'
-services:
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    ports:
-      - "4000:4000"
-    depends_on:
-      - db
-  db:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    environment:
-      POSTGRES_DB: todo_db
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password
 This Docker Compose file orchestrates the setup of multiple Docker containers for a three-tier application:
 
 frontend: Defines a service for the frontend of the application. It builds the frontend Docker image using the Dockerfile located in the ./frontend directory. It also maps port 3000 on the host machine to port 3000 in the container, allowing access to the frontend application.
@@ -201,10 +172,13 @@ docker-compose up
 
 # Test and Debug: Your Journey Awaits!
 
-Now, the stage is set, and your Dockerized three-tier application awaits your exploration. So fire up your favorite browser, explore your creation, and embark on a journey of testing and debugging. Fear not, for every challenge is an opportunity to grow!
+Access the application in a web browser and test its functionality. Debug any issues that arise during testing.
 
-And there you have it, fellow Docker enthusiasts! You've now Dockerized your three-tier application, unlocking a world of scalability, efficiency, and portability. As you navigate the vast seas of containerization, may your journey be filled with triumphs and discoveries.
+
+![DockerDisplay](/images/img1.jpg)
+
+![DockerCompose](/images/img2.jpg)
+
+![DockerCompose](/images/img3.jpg)
 
 Happy coding, and may the Docker gods smile upon you!
-
-![Docker Logo](khushidesai23/khushidesai23.github.io/images/img1.jpg)
