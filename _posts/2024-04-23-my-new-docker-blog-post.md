@@ -206,3 +206,5 @@ Now, the stage is set, and your Dockerized three-tier application awaits your ex
 And there you have it, fellow Docker enthusiasts! You've now Dockerized your three-tier application, unlocking a world of scalability, efficiency, and portability. As you navigate the vast seas of containerization, may your journey be filled with triumphs and discoveries.
 
 Happy coding, and may the Docker gods smile upon you!
+
+![Docker Logo](images/img1.jpg)
