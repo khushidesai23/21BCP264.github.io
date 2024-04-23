@@ -207,4 +207,4 @@ And there you have it, fellow Docker enthusiasts! You've now Dockerized your thr
 
 Happy coding, and may the Docker gods smile upon you!
 
-![Docker Logo](images/img1.jpg)
+![Docker Logo](khushidesai23/khushidesai23.github.io/images/img1.jpg)
